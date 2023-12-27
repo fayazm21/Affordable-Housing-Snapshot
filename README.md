@@ -1,4 +1,20 @@
-# CS-506-project
+# Affordable Housing Snapshot
+
+## Overview
+This project, "Affordable Housing Snapshot," aims to analyze housing violations in Boston to develop a ranking metric for landlords, aiding tenants in making informed decisions. Our approach uses violation datasets to assign scores based on violation types and frequency.
+
+## Data
+The project utilizes four violation datasets: Rentsmart data, Code Enforcement Data, Building and Property Violations Data, and 311 Data. Additionally, Parcel data was used for mapping violations to owners.
+
+## Notebooks and Analysis
+Various Jupyter notebooks are used for initial analysis before running the final project notebook. These notebooks cover different aspects of the analysis and are essential for understanding the full scope of the project.
+
+## Running the Project
+- Ensure you have Python and Jupyter Notebook installed.
+- Clone the repository and navigate to the project directory.
+- Run each analysis notebook before the final project notebook for a comprehensive understanding.
+- Data links and detailed instructions are provided in the repository.
+
 Do the following only for the first time you are using this repository.
 1. Create a folder called `datasets` and put all the following csv files inside it.
     - Download Building Violations dataset here:  https://data.boston.gov/dataset/building-and-property-violations1/resource/800a2663-1d6a-46e7-9356-bedb70f5332c and name it "building_violations.csv"
@@ -15,7 +31,12 @@ Do the following only for the first time you are using this repository.
 3. create a file called cleaned_datasets and put the resulting cleaned csv files here.
     -  (you need to have 3 csv files in total in this folder)
 4. Run final_cleaning.ipynb
+5. Finally you can run project.ipynb.
+## Project Report
+The final project report provides an in-depth analysis and findings. It is attached for a detailed understanding of the project's background, methodology, and results.
 
-From now on add your graphs, analysis in project.ipynb and just run this file.
+
+
+
 
  
